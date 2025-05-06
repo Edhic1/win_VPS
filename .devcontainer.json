@@ -2,6 +2,7 @@
   "name": "windows",
   "service": "windows",
   "forwardPorts": [8006],
+  "forwardPorts": [3398],
   "dockerComposeFile": "compose.yml",
   "features": {
 	  "ghcr.io/devcontainers/features/sshd:1": {
